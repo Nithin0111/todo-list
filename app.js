@@ -110,7 +110,7 @@ app.post("/delete",(req,res)=>{
   const checkedItemId = req.body.checkbox;
   const listName = req.body.listName;
   if(listName === 'Today'){
-    Item.findByIdAndRemove(delItem,function(err){
+    Item.findByIdAndRemove(checkedItemId,function(err){
       if(err){
         console.log(err);
       }else{
