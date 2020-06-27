@@ -27,6 +27,9 @@ If you don't have the prerequisites and you dont know how to install them please
 
 ### This project is live on the below link
 * [todolist link](https://nithintodolist.herokuapp.com/)
+```
+https://nithintodolist.herokuapp.com/
+```
 
 <!-- GETTING STARTED -->
 ## How to Run this project on your pc
